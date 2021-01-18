@@ -1,0 +1,189 @@
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        height: 103%;
+        width: 100%;
+        background-color: #cccccc;
+        box-sizing: border-box;
+        position: relative;
+    }
+    
+    .survay-img-wrapper {
+        width: 20%;
+        margin: 0 auto;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .title {
+        background-color: #cccccc;
+        position: absolute;
+        top: 10%;
+        width: 20%;
+        height: 70px;
+    }
+    
+    h1 {
+        margin-left: 40px;
+    }
+    
+    .main-content {
+        background-color: whitesmoke;
+        margin: 0 auto;
+        padding: 30px;
+        width: 60%;
+    }
+    
+    h1,
+    p,
+    label {
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    
+    p {
+        line-height: 30px;
+        margin-top: 0px;
+    }
+    
+    .contact input {
+        margin-top: 10px;
+        height: 25px;
+        width: 30%;
+        padding-left: 15px;
+    }
+    
+    form {
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+    
+    .details,
+    .review {
+        margin-top: 30px;
+    }
+    
+    .details input,
+    .review input {
+        margin-left: 0px;
+        margin-top: 7px;
+    }
+    
+    .review input:last-child {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: whitesmoke;
+        width: 30%;
+        border-width: thin;
+    }
+    
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        align-self: center;
+        font-size: xx-large;
+    }
+    
+    .face-wrapper a:hover,
+    .face-wrapper img:hover,
+    .square:hover {
+        background-color: #38daa1;
+    }
+    
+    .square-wrepper,
+    .face-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .square-wrepper {
+        width: 30%;
+    }
+    
+    .face-wrapper {
+        width: 40%;
+    }
+    
+    .square {
+        width: 50px;
+        height: 50px;
+        background-color: #afafaf;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .rating,
+    .espectations {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        margin-top: 10px;
+    }
+    
+    .espectations {
+        width: 40%;
+    }
+    
+    .high-espectations,
+    .low-espectations {
+        width: 25%;
+    }
+    
+    .checkbox-list {
+        width: 35%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    
+    .face-wrap {
+        width: 50px;
+        height: 50px;
+        background-color: #afafaf;
+    }
+    
+    .button-for-next,
+    .button-for-submit,
+    .button-for-back {
+        background-color: #38daa1;
+        width: 100px;
+        height: 40px;
+        border-radius: 15px;
+        margin-top: 15px;
+    }
+    
+    .button-for-back {
+        background-color: #afafaf;
+    }
+    
+    .footer-buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 63%;
+        margin-top: 30px;
+        margin: 0 auto;
+    }
+    
+    .next {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .next a,
+    .button-for-back a,
+    .button-for-submit a {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin-top: 6px;
+    }

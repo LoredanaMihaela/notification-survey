@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Loredana Dornescu">
+    <meta name="description" content="survey,html,css">
+    <title>Notification Survey</title>
+    <link rel="stylesheet" href="resources/survey.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+        <header class="survay-img-wrapper">
+            <div class="img-wrapper">
+                <img src="assets/step-1.png" alt="Notification Survey 01 green">
+            </div>
+            <div class="title">
+                <h1> Notification Survey</h1>
+            </div>
+        </header>
+        <div class="main-content">
+            <p>
+                We`re working on our notification system to make our product work
+                <br> This survey consists in several quetions and usually takes 5-7 minutes to complete.
+            </p>
+
+            <form>
+                <div class="contact">
+
+                    <label for="email">Enter your email:</label><br>
+                    <input type="email" name="email" id="email" placeholder="Your answer">
+                </div>
+                <div class="details">
+                    <p>Are you an admin or an member on our Board?</p>
+                    <br>
+                    <input type="radio" name="select" id="admin">
+                    <label for="admin">Admin</label><br>
+                    <input type="radio" name="select" id="member">
+                    <label for="member">Member</label>
+                </div>
+                <div class="review">
+                    <p> How do you collaborate in our Board?</p> <br>
+                    <input type="radio" name="answer" id="content">
+                    <label for="content">Create an edit content</label><br>
+                    <input type="radio" name="answer" id="comment">
+                    <label for="comment">Comment and leave comment</label><br>
+                    <input type="radio" name="answer" id="review">
+                    <label for="review">Just review and created comment</label><br>
+                    <input type="radio" name="answer" id="other">
+                    <label for="other">Other:</label>
+                    <input type="text" name="answer" id="text">
+                </div>
+
+            </form>
+        </div>
+        <footer class="footer-buttons next">
+            <div class="button-for-next">
+                <a href="survey2.html">NEXT</a>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
