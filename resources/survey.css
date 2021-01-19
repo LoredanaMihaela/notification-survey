@@ -1,5 +1,6 @@
     html,
     body {
+        /* ti-am atasat niste screenshot-uri sa vezi cum vad eu, nimeni nu a cerut ca continutul sa se incadreze intr-o singura pagina. Cum am mai zis, fiecare regula trebuie sa aibe un motiv pentru care o folosim, nu doar sa folosim din obisnuinta */
         height: 100%;
         width: 100%;
         margin: 0;
@@ -7,6 +8,7 @@
     }
     
     .container {
+        /* 103%? */
         height: 103%;
         width: 100%;
         background-color: #cccccc;
@@ -26,6 +28,7 @@
     
     .title {
         background-color: #cccccc;
+        /* titul are sens sa il pozitionam dupa propriul lui wrapper care in cazul acesta este <header>, tu il pozitionezi fata de <main> care contine intreaga pagina. cum ti se pare?  */
         position: absolute;
         top: 10%;
         width: 20%;
@@ -146,6 +149,8 @@
         justify-content: space-between;
     }
     
+    /* nu este prima data cand discutam despre asta, la fel ai implementat si la speakers, un image wrapper trebuie sa fie un wrapper la fiecare imagine in parte, tu adaugi un singur wrapper, nu inteleg exact cum o vezi tu aceasta tehnica */
+    /* also, aveam un border-radius in layout care nu este implementat */
     .face-wrap {
         width: 50px;
         height: 50px;
